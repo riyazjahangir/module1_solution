@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title>
+            Check If Too Much
+        </title>
+        <script src="angular.min.js"></script>
+        <script src="app.js"></script>
+    </head>
+    <body ng-app='checker'>
+        <div ng-controller = 'check_controller'>
+            Enter the meals(Comma-Separated) : <br>
+            <input type="text" ng-model="meals"> <br>
+            <button ng-click="check_if_too_much();">Check If Too Much</button><br/>
+            {{suggestion}}
+        </div>
+    </body>
+</html> 
