@@ -1,9 +1,9 @@
 (function () {
     'use strict';
 
-    angular.module('checker',[])
+    angular.module('LunchCheck',[])
 
-    .controller('check_controller',check_controller);
+    .controller('LunchCheckController',check_controller);
 
     check_controller.$inject = ['$scope'];
         
